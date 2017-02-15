@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182ED8DA1E51EED500636ECF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182ED8D91E51EED500636ECF /* AppDelegate.m */; };
+		182ED8DD1E51EED500636ECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182ED8DC1E51EED500636ECF /* main.m */; };
+		182ED8DF1E51EED500636ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182ED8DE1E51EED500636ECF /* Assets.xcassets */; };
+		182ED8E21E51EED500636ECF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182ED8E01E51EED500636ECF /* MainMenu.xib */; };
+		182ED8EB1E51F03400636ECF /* SCSpaceRover.m in Sources */ = {isa = PBXBuildFile; fileRef = 182ED8EA1E51F03400636ECF /* SCSpaceRover.m */; };
+		182ED8F11E54331000636ECF /* SCCommandCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 182ED8F01E54331000636ECF /* SCCommandCenter.m */; };
+		182ED8F41E5437A700636ECF /* SCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182ED8F31E5437A700636ECF /* SCRootViewController.m */; };
+		182ED8F91E543B1C00636ECF /* SCSpaceRoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182ED8F81E543B1C00636ECF /* SCSpaceRoverView.m */; };
+		182ED8FB1E543C5200636ECF /* SCRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182ED8FA1E543C5200636ECF /* SCRootViewController.xib */; };
+		182ED8FE1E543EFD00636ECF /* SCRootViewControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182ED8FD1E543EFD00636ECF /* SCRootViewControllerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		182ED8D51E51EED500636ECF /* Curiosity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Curiosity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182ED8D81E51EED500636ECF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		182ED8D91E51EED500636ECF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		182ED8DC1E51EED500636ECF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		182ED8DE1E51EED500636ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182ED8E11E51EED500636ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		182ED8E31E51EED500636ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182ED8E91E51F03400636ECF /* SCSpaceRover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSpaceRover.h; sourceTree = "<group>"; };
+		182ED8EA1E51F03400636ECF /* SCSpaceRover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSpaceRover.m; sourceTree = "<group>"; };
+		182ED8EF1E54331000636ECF /* SCCommandCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCommandCenter.h; sourceTree = "<group>"; };
+		182ED8F01E54331000636ECF /* SCCommandCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCommandCenter.m; sourceTree = "<group>"; };
+		182ED8F21E5437A700636ECF /* SCRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRootViewController.h; sourceTree = "<group>"; };
+		182ED8F31E5437A700636ECF /* SCRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRootViewController.m; sourceTree = "<group>"; };
+		182ED8F71E543B1C00636ECF /* SCSpaceRoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSpaceRoverView.h; sourceTree = "<group>"; };
+		182ED8F81E543B1C00636ECF /* SCSpaceRoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSpaceRoverView.m; sourceTree = "<group>"; };
+		182ED8FA1E543C5200636ECF /* SCRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCRootViewController.xib; sourceTree = "<group>"; };
+		182ED8FC1E543EFD00636ECF /* SCRootViewControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRootViewControllerView.h; sourceTree = "<group>"; };
+		182ED8FD1E543EFD00636ECF /* SCRootViewControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRootViewControllerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182ED8D21E51EED500636ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182ED8CC1E51EED500636ECF = {
+			isa = PBXGroup;
+			children = (
+				182ED8D71E51EED500636ECF /* Curiosity */,
+				182ED8D61E51EED500636ECF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182ED8D61E51EED500636ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182ED8D51E51EED500636ECF /* Curiosity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182ED8D71E51EED500636ECF /* Curiosity */ = {
+			isa = PBXGroup;
+			children = (
+				182ED8D81E51EED500636ECF /* AppDelegate.h */,
+				182ED8D91E51EED500636ECF /* AppDelegate.m */,
+				182ED8FF1E54525F00636ECF /* Model */,
+				182ED9001E54526D00636ECF /* View */,
+				182ED8DB1E51EED500636ECF /* Supporting Files */,
+			);
+			path = Curiosity;
+			sourceTree = "<group>";
+		};
+		182ED8DB1E51EED500636ECF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				182ED8DE1E51EED500636ECF /* Assets.xcassets */,
+				182ED8E31E51EED500636ECF /* Info.plist */,
+				182ED8E01E51EED500636ECF /* MainMenu.xib */,
+				182ED8DC1E51EED500636ECF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		182ED8FF1E54525F00636ECF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				182ED8EF1E54331000636ECF /* SCCommandCenter.h */,
+				182ED8F01E54331000636ECF /* SCCommandCenter.m */,
+				182ED8E91E51F03400636ECF /* SCSpaceRover.h */,
+				182ED8EA1E51F03400636ECF /* SCSpaceRover.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		182ED9001E54526D00636ECF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				182ED8F21E5437A700636ECF /* SCRootViewController.h */,
+				182ED8F31E5437A700636ECF /* SCRootViewController.m */,
+				182ED8FA1E543C5200636ECF /* SCRootViewController.xib */,
+				182ED8FC1E543EFD00636ECF /* SCRootViewControllerView.h */,
+				182ED8FD1E543EFD00636ECF /* SCRootViewControllerView.m */,
+				182ED8F71E543B1C00636ECF /* SCSpaceRoverView.h */,
+				182ED8F81E543B1C00636ECF /* SCSpaceRoverView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182ED8D41E51EED500636ECF /* Curiosity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182ED8E61E51EED500636ECF /* Build configuration list for PBXNativeTarget "Curiosity" */;
+			buildPhases = (
+				182ED8D11E51EED500636ECF /* Sources */,
+				182ED8D21E51EED500636ECF /* Frameworks */,
+				182ED8D31E51EED500636ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Curiosity;
+			productName = Curiosity;
+			productReference = 182ED8D51E51EED500636ECF /* Curiosity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182ED8CD1E51EED500636ECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = stefanceriu;
+				TargetAttributes = {
+					182ED8D41E51EED500636ECF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 182ED8D01E51EED500636ECF /* Build configuration list for PBXProject "Curiosity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182ED8CC1E51EED500636ECF;
+			productRefGroup = 182ED8D61E51EED500636ECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182ED8D41E51EED500636ECF /* Curiosity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182ED8D31E51EED500636ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182ED8DF1E51EED500636ECF /* Assets.xcassets in Resources */,
+				182ED8FB1E543C5200636ECF /* SCRootViewController.xib in Resources */,
+				182ED8E21E51EED500636ECF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182ED8D11E51EED500636ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182ED8F11E54331000636ECF /* SCCommandCenter.m in Sources */,
+				182ED8FE1E543EFD00636ECF /* SCRootViewControllerView.m in Sources */,
+				182ED8DD1E51EED500636ECF /* main.m in Sources */,
+				182ED8EB1E51F03400636ECF /* SCSpaceRover.m in Sources */,
+				182ED8DA1E51EED500636ECF /* AppDelegate.m in Sources */,
+				182ED8F41E5437A700636ECF /* SCRootViewController.m in Sources */,
+				182ED8F91E543B1C00636ECF /* SCSpaceRoverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		182ED8E01E51EED500636ECF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182ED8E11E51EED500636ECF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182ED8E41E51EED500636ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		182ED8E51E51EED500636ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		182ED8E71E51EED500636ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Curiosity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefanceriu.Curiosity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		182ED8E81E51EED500636ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Curiosity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefanceriu.Curiosity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182ED8D01E51EED500636ECF /* Build configuration list for PBXProject "Curiosity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182ED8E41E51EED500636ECF /* Debug */,
+				182ED8E51E51EED500636ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182ED8E61E51EED500636ECF /* Build configuration list for PBXNativeTarget "Curiosity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182ED8E71E51EED500636ECF /* Debug */,
+				182ED8E81E51EED500636ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182ED8CD1E51EED500636ECF /* Project object */;
+}
